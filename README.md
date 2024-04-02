@@ -9,7 +9,7 @@ wp core language install ja --activate
 && wp option update default_comment_status closed
 && wp theme delete --all --force
 && wp theme install twentytwentyfour
-&& wp scaffold _s sample_theme --theme_name="サンプルテーマ" --author="xxxxxx" --sassify --activate
+&& wp scaffold _s sample_theme --theme_name="サンプルテーマ" --author="xxxxxx" --author_uri="https://xxxxx.com" --sassify --activate
 && wp plugin install wp-multibyte-patch --activate
 && wp plugin install show-current-template --activate
 && wp plugin install query-monitor --activate
