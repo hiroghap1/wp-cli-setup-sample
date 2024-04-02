@@ -35,3 +35,5 @@ wp core language install ja --activate
 - 固定ページ・フロントページを作成
 - 投稿ページを削除
 - 翻訳を更新（最後に行う）
+
+[WP CLI コマンド一覧](https://developer.wordpress.org/cli/commands/)
